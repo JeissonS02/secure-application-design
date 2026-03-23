@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Application Design</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h1>🔐 Secure Application Design</h1>
+
+<div class="container">
+
+    <!-- REGISTER -->
+    <div class="card">
+        <h3>Register</h3>
+        <input id="regUser" placeholder="Username">
+        <input id="regPass" type="password" placeholder="Password">
+        <button onclick="register()">Create account</button>
+        <p id="registerResult"></p>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="card">
+        <h3>Login</h3>
+        <input id="loginUser" placeholder="Username">
+        <input id="loginPass" type="password" placeholder="Password">
+        <button onclick="login()">Sign in</button>
+        <p id="loginResult"></p>
+    </div>
+
+</div>
+
+<!-- DEBUG -->
+<div class="debug">
+
+    <h3>📡 Request</h3>
+    <pre id="requestBox"></pre>
+
+    <h3>📥 Response</h3>
+    <pre id="responseBox"></pre>
+
+</div>
+
+<!-- TOKEN -->
+<div class="token-box">
+    <h3>🔐 Token</h3>
+    <pre id="tokenBox"></pre>
+    <button onclick="logout()">Sign out</button>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

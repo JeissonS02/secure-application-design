@@ -1,0 +1,61 @@
+# ========================
+# JAVA / SPRING BOOT
+# ========================
+target/
+*.log
+*.class
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# ========================
+# IDEs
+# ========================
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ========================
+# OS FILES
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# ENV / SECRETS
+# ========================
+.env
+application.properties
+application.yml
+
+# ========================
+# CERTIFICADOS / KEYS
+# ========================
+*.pem
+*.key
+*.p12
+*.jks
+
+# ========================
+# LOGS
+# ========================
+logs/
+*.log
+
+
+
+# ========================
+# OTROS
+# ========================
+*.tmp
+*.swp

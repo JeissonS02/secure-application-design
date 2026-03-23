@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(160deg, #0f172a, #1e293b);
+    color: #e2e8f0;
+}
+
+/* HEADER */
+h1 {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* CONTENEDOR */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* TARJETAS */
+.card {
+    background: #1e293b;
+    padding: 18px;
+    border-radius: 10px;
+    width: 240px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 9px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: none;
+    background: #334155;
+    color: white;
+}
+
+/* BOTONES */
+button {
+    width: 100%;
+    padding: 9px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: none;
+    background: #06b6d4;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #22d3ee;
+}
+
+/* RESULTADOS */
+p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* DEBUG */
+.debug {
+    margin: 25px auto;
+    width: 75%;
+}
+
+pre {
+    background: #020617;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    overflow-x: auto;
+}
+
+/* TOKEN */
+.token-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
